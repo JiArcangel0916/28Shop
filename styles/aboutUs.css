@@ -16,12 +16,12 @@
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    gap: 15rem;
+    gap: 5rem;
 }
 
 #aboutShop #ring{
     height: auto;
-    width: clamp(18rem, 50%, 38rem);
+    width: clamp(18rem, 50%, 36rem);
     transition: all 0.3s ease;
 }
 
@@ -245,14 +245,14 @@
     background-repeat: no-repeat;
     justify-content: center;
     align-items: flex-end;
-    padding-bottom: 6rem;
+    padding-bottom: 3rem;
 }
 
 #reviews #imgSlider .slide img{
     pointer-events: none; 
     user-select: none; 
     -webkit-user-drag: none;
-    width: clamp(200px, 90%, 350px);
+    width: clamp(200px, 90%, 320px);
     aspect-ratio: .90;
 }
 
