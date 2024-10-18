@@ -1,0 +1,40 @@
+@media (max-width: 1800px){
+    #paymentMethods #methodsContainer{
+        gap: 5rem;
+        margin-bottom: 5rem;
+    }
+}
+
+@media (max-width: 1120px){
+    #paymentMethods #sectionTitle{
+        width: 30rem;
+    }
+}
+
+@media (max-width: 750px){
+    #paymentMethods #sectionTitle{
+        width: 20rem;
+    } 
+    #paymentMethods #sectionTitle #shopTitle{
+        width: 12rem;
+    }
+    #paymentMethods #sectionTitle h2{
+        font-size: 2.5rem;
+    }
+    #paymentMethods #sectionTitle p{
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 415px){
+    #paymentMethods #sectionTitle #shopTitle{
+        width: 10rem;
+        margin-top: 3rem;
+    }
+    #paymentMethods #sectionTitle h2{
+        font-size: 2rem;
+    }
+    #paymentMethods #sectionTitle p{
+        font-size: 1.25rem;
+    }
+}

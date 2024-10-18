@@ -1,0 +1,170 @@
+*{
+    font-family: "Sorts Mill Goudy", serif;
+}
+
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.footer{
+    min-height: 35vh;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url("../Resources/28 Shop Footer.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#wholeLogo{
+    height: auto;
+    width: 24rem;
+}
+
+.footer .logoAndSoc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5rem;
+    padding: 0rem 5rem;
+}
+
+.footerSocMed{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socmedBtn{
+    transition: all 0.5s ease;
+    cursor: pointer;
+    border: none;
+    background: none;
+    height: 2.8125rem;
+    width: 2.8125rem;
+    margin: 0 .25rem;
+}
+
+.socmedBtn:hover .footerSvg{
+    fill: #BB8009;
+    transform: translateY(-5px);
+    background-color: #111111;
+}
+
+.footerSocMed svg{
+    height: 3rem;
+    width: 3rem;  
+    fill: #F4E9D3;
+    transition: all 0.3s ease;
+    padding: .5rem;
+    border-radius: 20px;
+}
+
+.summaryTabs{
+    align-self: flex-start;
+    display: flex;
+    gap: 5rem;
+    flex-wrap: wrap;
+    padding: 3rem 5rem 0 3rem;
+}
+.summaryTabs a:hover{
+color: #BB8009;
+}
+.home, .about, .products, .method{
+    text-align: center;
+}
+
+.footer h2{
+    color: #BB8009;
+    font-weight: 300;
+}
+.footer p{
+    margin: .5rem 0;
+    color: #FFFFFF;
+}
+
+.copyright{
+    position: absolute;
+    bottom: 15%;
+    right: 20%;
+    transform: translate(-20%, -15%);
+    color: #FFFFFF;
+    width: fit-content;
+    white-space: nowrap;
+}
+
+.footer p{
+    cursor: pointer;
+}
+
+/* RESPONSIVENESS */
+@media (max-width: 1720px){
+    .footer{
+        justify-content: center;
+    }
+    .copyright{
+        bottom: 5%;
+    }
+}
+
+@media (max-width: 1535px){
+    .footer{
+        gap: 3rem;
+    }
+    .footer .logoAndSoc{
+        padding-top: 3rem;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 0;
+    }
+    .footer .summaryTabs{
+        width: 100%;
+        padding: 2rem;
+        align-self: center;
+        justify-content: center;
+    }
+    .footer .copyright{
+        top: 55%;
+        left: 92%;
+        transform: translate(-92%, -55%);
+        text-align: right;
+    }
+}
+
+@media (max-width: 890px){
+    .footer .copyright{
+        top: 95%;
+        left: 50%;
+        transform: translate(-50%, -95%);
+    }
+    .footer .summaryTabs{
+        flex-direction: column;
+        gap: 4rem;
+        padding-bottom: 10rem;
+    }
+}
+
+@media (max-width: 810px){
+    .footer .logoAndSoc{
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 480px){
+    .footer #wholeLogo{
+        width: 15rem;
+    }
+    .footer .footerSocMed svg{
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+}

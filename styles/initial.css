@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+::selection{
+    background-color: grey;
+}
+
+section{
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    transition: all 0.3s ease;
+    padding: 1rem;
+}

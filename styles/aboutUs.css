@@ -1,0 +1,271 @@
+/* .navbar .ABOUTUS{
+    border-bottom-color: #BB8009;
+    color: #BB8009;
+} */
+
+/* WHAT IS 28 SHOP*/
+#aboutShop{
+    position: relative;
+    min-height: 100vh;
+    background-image: url("../Resources/About Us Page/What is 28 Shop BG FINAL.png");
+    background-position: 50% 58%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15rem;
+}
+
+#aboutShop #ring{
+    height: auto;
+    width: clamp(18rem, 50%, 38rem);
+    transition: all 0.3s ease;
+}
+
+#aboutShop .textContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: .5rem;
+    width: 40%;
+}
+
+#aboutShop #aboutTitle{
+    display: flex;
+    flex-direction: column;
+}
+#aboutShop #aboutTitle h2{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-family: "Sorts Mill Goudy", serif;
+    font-size: 2rem;
+    margin-bottom: -2rem;
+    text-align: left;
+}
+#aboutShop #aboutTitle .title #num, 
+#aboutShop #aboutTitle .title #shop{
+    color: #BB8009;
+    font-weight: 400;
+    font-family: "Great Vibes";
+    display: inline;
+}
+#aboutShop #aboutTitle .title #num{
+    font-size: 9rem;
+}
+#aboutShop #aboutTitle .title #shop{
+    font-size: 7rem;
+}
+
+#aboutShop #description{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: flex-start;
+}
+#aboutShop #description p{
+    color: #FFFFFF;
+    font-size: 1.45rem;
+    width: 100%;
+    line-height: 30px;
+    text-align: left;
+}
+#aboutShop #showCollBtn{
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    background-color: #BB8009;
+    padding: .60rem 1.5rem .45rem 1.5rem;
+    text-align: right;
+    width: fit-content;
+}
+
+/* WHAT IS ABOUT THE FOUNDER */
+#aboutTheFounder{
+    min-height: 100vh;
+    background-image: url('../Resources/About Us Page/About the Author BG FINAL.png');
+    background-position: 50% -0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#aboutTheFounder #titleAndDesc{
+    width: 40%;
+    position: absolute;
+    top: 60%;
+    right: 5%;
+    transform: translate(-5%, -60%);
+}
+#aboutTheFounder #description{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+#aboutTheFounder h2, #aboutTheFounder p{
+    font-family: "Sorts Mill Goudy", serif;
+    color: #FFFFFF;
+    font-weight: 400;
+    text-align: right;
+}
+#aboutTheFounder p{
+    font-size: 1.45rem;
+}
+#aboutTheFounder h2{
+    font-size: 2rem;
+    margin-bottom: -1rem;
+}
+#aboutTheFounder h1{
+    font-family: "Great Vibes";
+    color: #BB8009;
+    font-size: 9rem;
+    font-weight: 400;
+    text-align: right;
+}
+
+/* MESSAGE FROM THE FOUNDER */
+#founderMsg{
+    position: relative;
+    padding: 1rem;
+    min-height: 53vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+}
+
+#founderMsg #founderMsgBG{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1000;
+}
+
+#founderMsg #textContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
+#founderMsg h2, #founderMsg h3{
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+#founderMsg h2{
+    font-size: 3rem;
+    font-style: bold;
+    color: #f4e9d3;
+}
+#founderMsg h3{
+    font-size: 1.75rem;
+    font-style: italic; 
+}
+#founderMsg p{
+    text-align: center;
+    font-size: 1.25rem;
+    color: white;
+}
+
+#founderMsg #bar{
+    height: 5px;
+    width: 90px;
+    background-color: #BB8009;
+    margin: 1.5rem 0;
+}
+
+/* REVIEWS */
+#reviews{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#reviewsBg{
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#reviews #reviewsTitle{
+    position: absolute;
+    top: 5%;
+    left: 48.5%;
+    transform: translate(-48.5%, -5%);
+}
+
+#reviews #reviewsTitle h2{
+    font-family: "Sorts Mill Goudy", serif;
+    font-weight: 300;
+    text-align: right;
+    font-size: 2rem;
+}
+#reviews #reviewsTitle h1{
+    font-family: "Great Vibes";
+    font-weight: 500;
+    text-align: center;
+    font-size: 8rem;
+    margin-top: -1.75rem;
+    margin-bottom: -2rem;
+    color: #BB8009;
+}
+#reviews #reviewsTitle p{
+    font-family: "Sorts Mill Goudy", serif;
+    font-size: 1.5rem;
+    text-align: right;
+    font-style: italic;
+}
+
+#reviews #imgSlider{
+    height: 70%;
+    width: 80%;
+    display: flex;
+    gap: 1.25rem;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    margin-top: 10rem;
+    user-select: none;
+}
+
+#reviews #imgSlider .slide{
+    display: flex;
+    flex: 0 0 32.5%;
+    max-width: 33.33%;
+    margin-bottom: 1rem;
+    background-image: url('../Resources/About Us Page/FeedbackBG.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 6rem;
+}
+
+#reviews #imgSlider .slide img{
+    pointer-events: none; 
+    user-select: none; 
+    -webkit-user-drag: none;
+    width: clamp(200px, 90%, 350px);
+    aspect-ratio: .90;
+}
+
+/* Custom scrollbar for WebKit browsers */
+#reviews #imgSlider::-webkit-scrollbar {
+    width: 12px;
+    height: 10px;
+}
+#reviews #imgSlider::-webkit-scrollbar-track {
+    background: #74520c; 
+    border-radius: 10px;
+}
+#reviews #imgSlider::-webkit-scrollbar-thumb {
+    background: #BB8009;
+    border-radius: 10px; 
+}

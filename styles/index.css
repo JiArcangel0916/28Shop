@@ -1,0 +1,412 @@
+/* .navbar .HOME{
+    border-bottom-color: #BB8009;
+    color: #BB8009;
+} */
+
+/* SPLASH SECTION */
+#Splash{
+    height: 100vh;
+    position: relative;
+    background-image: url('../Resources/Home Page/Background.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Splash #mainLogo{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -45%);
+    height: auto;
+    width: clamp(40%, 60vw, 500px);
+    transition: all 5s ease;
+    opacity: 0;
+}
+
+#Splash #mainLogo.show{
+    opacity: 1;
+}
+
+#Splash #socials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    position: absolute;
+    top: 93%;
+    left: 50%;
+    transform: translate(-50%, -93%);
+}
+
+#Splash #socials .socmedBtn{
+    transition: all 0.5s ease;
+    cursor: pointer;
+    border: none;
+    background: none;
+    background-color: #BB8009;
+    border-radius: 10px;
+    height: 2.75rem;
+    width: 2.75rem;
+}
+
+#Splash #socials .socmedBtns{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+#Splash #socials .socmedBtn:hover{
+    background-color: #FFFFFF;
+}
+
+#Splash #socials .socmedBtn:hover svg{
+    fill: #BB8009;
+}
+
+#Splash #socials svg{
+    height: 2.75rem;
+    width: 2.75rem;  
+    padding: .5rem;
+    fill: #FFFFFF;
+    transition: all 0.1s ease;
+}
+
+#Splash #socials #check{
+    color: #FFFFFF;
+    font-family: "Sorts Mill Goudy", serif;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/* OFFERS SECTION */
+#offers *{
+    transition: all 0.3s ease;
+}
+#offers{
+    min-height: 40vh;
+    width: 100%;
+    background-color: #F4E9D3;
+    box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.5);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#offers p{
+    color: #000000;
+    font-family: "Sorts Mill Goudy", serif;
+}
+#offers svg{
+    height: 6.25rem;
+    margin-bottom: 1rem;
+    stroke-width: .5rem;
+    stroke: #BB8009;
+    fill: #F4E9D3;
+}
+
+#offers .diamondLogo,
+#offers .worldLogo,
+#offers .licSellerLogo{
+    position: relative;
+}
+
+#offers #items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    width: 100%;
+    height: 100%;
+    margin: 6rem 0;
+}
+ 
+#offers .offerings{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 22%;
+    box-sizing: border-box;
+}
+ 
+#offers .offerTitle{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 400;
+}
+#offers .offerDesc{
+    font-size: 1.25rem;
+    text-align: center;
+    width: 55%;
+}
+
+#offers .diamond{
+    width: 5rem;
+}
+#offers #star1{
+    height: 3rem;
+    width: 3rem;
+    position: absolute;
+    top: 40%;
+    right: 35%;
+    transform: translate(-35%, 40%);
+    animation: shine1 3s infinite linear;
+}
+#offers #star2{
+    height: 2.75rem;
+    width: 2.75rem;
+    position: absolute;
+    top: 1%;
+    left: 50%;
+    transform: translate(-50%, 1%);
+    animation: shine2 1.5s infinite linear;
+}
+
+#offers .world{
+    width: 5rem;
+}
+#offers .plane{
+    width: 2rem;
+    position: absolute;
+    top: 1%;
+    left: -20%;
+    transform: translate(20%, -1%);
+    animation: fly 3s infinite linear;
+    fill: #BB8009;
+    stroke: none;
+}
+
+#offers .cert{
+    width: 5rem;
+    height: 5rem;
+    z-index: -1;
+    animation: rotate 10s infinite linear;
+}
+#offers .check{
+    height: 2.25rem;
+    width: 2.25rem;
+    position: absolute;
+    top: 35%;
+    left: 55%;
+    transform: translate(-55%, -35%);
+    fill: #BB8009;
+}
+
+#offers .cart{
+    height: 4rem;
+    width: 4rem;
+    margin: 1.25rem 0;
+    animation: scale 2s infinite linear;
+}
+
+/* NOTABLE PIECES SECTION */
+#notPicIntro{
+    min-height: 25vh;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: visible;
+}
+
+#notPicIntro #introContainer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+#notPicIntro #introTitle{
+    color: #F4E9D3;
+    font-family: "Sorts Mill Goudy", serif;
+    font-size: 3rem;
+    text-align: center;
+}
+#notPicIntro #bar{
+    height: 5px;
+    width: 150px;
+    background-color: #BB8009;
+    border: 1px solid #BB8009;
+}
+#notPicIntro #introSubTitle{
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 70%;
+}
+
+#notPieces{
+    height: 100vh;
+    position: relative;
+    background-image: url('../Resources/Home Page/Notable Pieces BG.png');
+    background-position: 50% 40%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#notPieces .prev,
+#notPieces .next{
+    transition: all 0.3s ease;
+    fill: #BB8009;
+    height: 3.125rem;
+    width: 3.125rem;
+    z-index: 10;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+#notPieces .prev:active{
+    transform: translateX(-10px);
+}
+#notPieces .next:active{
+    transform: translateX(10px);
+}
+
+#notPieces svg:hover{
+    fill: #FFFFFF;
+}
+
+#notPieces #prev{
+    position: absolute;
+    top: 50%;
+    left: 7%;
+    transform: translate(-7%, -50%);
+}
+#notPieces #next{
+    position: absolute;
+    top: 50%;
+    right: 7%;
+    transform: translate(-7%, -50%);
+}
+
+#notPieces #pieceTitle{
+    color: #FFFFFF;
+    font-family: "Great Vibes";
+    font-weight: 500;
+    font-size: 5rem;
+    transition: all 0.5s ease;
+    position: absolute;
+    bottom: 12%;
+    right: 5%;
+    transform: translate(-5%, -12%);
+    text-align: center;
+}
+
+#notPiecesTitle{
+    color: #FFFFFF;
+    font-family: "Sorts Mill Goudy", serif;
+    font-size: 2rem;
+    position: absolute;
+    bottom: 30%;
+    right: 5%;
+    padding: .20em 1.5em .05em 1.5em;
+    background-color: #BB8009;
+    transform: translate(-5%, -30%);
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+#notPieces .prodImg{
+    transition: all ease 0.3s;
+    position: absolute;
+    z-index: 10000;
+}
+#notPieces .prodImg.first-img,
+#notPieces .prodImg.second-img,
+#notPieces .prodImg.third-img,
+#notPieces .prodImg.fourth-img,
+#notPieces .prodImg.fifth-img{
+    height: auto;
+}
+
+#notPieces .prodImg.first-img{
+    width: 30vw;
+    top: 10%;
+    left: 30%;
+    transform: translate(-30%, 10%);
+}
+#notPieces .prodImg.second-img{
+    width: 22vw;
+    top: 40%;
+    left: 30%;
+    transform: translate(-30%, -40%);
+}
+#notPieces .prodImg.third-img{
+    width: 45vw;
+    top: 45%;
+    left: 30%;
+    transform: translate(-30%, -45%);
+}
+#notPieces .prodImg.fourth-img{
+    width: 25vw;
+    top: 40%;
+    left: 30%;
+    transform: translate(-30%, -40%);
+}
+#notPieces .prodImg.fifth-img{
+    width: 33vw;
+    top: 40%;
+    left: 30%;
+    transform: translate(-30%, -40%);
+}
+
+#notPieces #dotContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    position: absolute;
+    bottom: 8%;
+    left: 50%;
+    transform: translate(-50%, -8%);
+}
+
+#notPieces .dot{
+    transition: all 0.3s ease;
+    border: 6px solid #FFFFFF;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+#notPieces .dot:hover{
+    border-color: #BB8009;
+}
+
+/* FOR TRANSITIONS */
+.hidden{
+    opacity: 0;
+}
+
+.fade {
+    transition: opacity 0.5s ease;
+}
+
+#notPieces .dot.active{
+    border-color: #BB8009;
+    background-color: #BB8009;
+}
+
+.card{
+    opacity: 0;
+    transition: all ease 5s;
+}
+.card.show{
+    opacity: 1;
+}
+
+.offerings{
+    opacity: 0;
+    transition: all ease 5s;
+}
+.offerings.show{
+    opacity: 1;
+}

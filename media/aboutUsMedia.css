@@ -1,0 +1,120 @@
+@media (max-width: 1445px){
+    /* ABOUT 28 SHOP */
+    #aboutShop{
+        gap: 5rem;
+    }
+    /* REVIEWS */
+    #reviews #imgSlider .slide{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 1177px){
+    /* ABOUT 28 SHOP */
+    #aboutShop .textContainer{
+        padding: 0 2rem 0rem 2rem;
+        width: 90%;
+        margin-bottom: 5rem;
+    }
+    #aboutShop .textContainer #description p,
+    #aboutShop #aboutTitle h2,
+    #aboutShop #aboutTitle .title #num,
+    #aboutShop #aboutTitle .title #shop,
+    #aboutShop .textContainer #description #showCollBtn{
+        text-align: center;
+    }
+    #aboutShop #aboutTitle{
+        width: 100%;
+        align-items: center;
+    }
+    #aboutShop #description{
+        align-items: center;
+    }
+}
+
+@media (max-width: 1115px){
+    /* ABOUT 28 SHOP */
+    #aboutShop{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    /* REVIEWS */
+    #reviews #reviewsTitle h2{
+        font-size: 1.5rem;
+    }
+    #reviews #reviewsTitle h1{
+        font-size: 6rem;
+    }
+    #reviews #reviewsTitle p{
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 800px){
+    /* REVIEWS */
+    #reviews #imgSlider .slide{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    /* FOUNDER MESSAGE */
+    #founderMsg h2{
+        font-size: 2.5rem;
+    }
+    #founderMsg h3{
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 745px){
+    /* REVIEWS */
+    #reviews #reviewsTitle h2{
+        font-size: 1.25rem;
+    }
+    #reviews #reviewsTitle h1{
+        margin-top: -1.25rem;
+        margin-bottom: -1rem;
+        font-size: 5rem;
+        text-align: center;
+    }
+    #reviews #reviewsTitle p{
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    /* FOUNDER MESSAGE */
+    #founderMsg #textContainer{
+        width: 90%;
+    }
+}
+
+@media (max-width: 500px){
+    /* ABOUT SHOP */
+    #aboutShop #aboutTitle h2{
+        font-size: 1.50rem;
+    }
+    #aboutShop #aboutTitle .title #num{
+        font-size: 6rem;
+    }
+    #aboutShop #aboutTitle .title #shop{
+        font-size: 4rem;
+    }
+    #aboutShop #description p{
+        font-size: 1.2rem;
+    }
+
+    /* FOUNDER MESSAGE */
+    #founderMsg h2{
+        font-size: 2rem;
+    }
+    #founderMsg h3{
+        font-size: 1rem;
+    }
+    #founderMsg p{
+        font-size: 1rem;
+    }
+}

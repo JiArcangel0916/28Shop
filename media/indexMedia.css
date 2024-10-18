@@ -1,0 +1,133 @@
+@media (max-width: 950px){
+    /* SPLASH SECTION */
+    #Splash #socials .socmedBtn{
+        height: 2.25rem;
+        width: 2.25rem;
+    }
+    #Splash #socials svg{
+        height: 2.25rem;
+        width: 2.25rem;
+    }
+    #Splash #socials #check{
+        font-size: 1rem;
+    }
+
+    /* OFFERS SECTION */
+    #offers .offerTitle{
+        font-size: 1.5rem;
+    }
+    #offers .offerDesc{
+        width: 100%;
+        font-size: 1.1rem;
+    }
+    #offers .offerings{
+        width: 40%;
+    }
+
+    /* NOTABLE PIECES INTRO */
+    #notPicIntro #introTitle{
+        font-size: 2.5rem;
+    }
+    #notPicIntro #introSubTitle{
+        font-size: 1.25rem;
+    }
+
+    /* NOTABLE PIECES SECTION */
+    #notPieces #slideContainer img{
+        left: 50%;
+        top: 35%;
+        transform: translate(-50%, -35%);
+    }
+    #notPieces .next,
+    #notPieces .prev{
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+    #notPieces #prev{
+        top: 43%;
+        left: 7%;
+        transform: translate(-7%, -43%);
+    }
+    #notPieces #next{
+        top: 43%;
+        right: 7%;
+        transform: translate(-7%, -43%);
+    }
+    #notPieces h1{
+        font-size: 4rem;
+    }
+    #notPieces #notPiecesTitle{
+        font-size: 1.25rem;
+        left: 50%;
+        bottom: 22%;
+        transform: translate(-50%, -22%);
+        width: fit-content;
+        padding: 0.2rem 1.25rem 0 1.25rem;
+    }
+    #notPieces #pieceTitle{
+        bottom: 9%;
+        left: 50%;
+        transform: translate(-50%, -9%);
+        font-size: 3.5rem;
+        width: 100%;
+    }
+    #notPieces .prodImg.first-img,
+    #notPieces .prodImg.second-img,
+    #notPieces .prodImg.third-img,
+    #notPieces .prodImg.fourth-img,
+    #notPieces .prodImg.fifth-img{
+        width: clamp(18rem, 50%, 30rem);
+    }
+    #notPieces #dotContainer{
+        bottom: 5%;
+        left: 50%;
+        transform: translate(-50%, -5%);
+    }
+}
+
+@media (max-width: 500px){
+    /* SPLASH SECTION */
+    #socials .socmedBtns{
+        gap: .5rem;
+    }
+
+    /* OFFERS SECTION */
+    #offers .offerings{
+        width: 100%;
+    }
+    #offers .offerDesc{
+        width: 50%;
+    }
+    #offers .diamond,
+    #offers .world,
+    #offers .cert{
+        width: 4rem;
+    }
+    #offers .cart{
+        width: 3rem;
+    }
+    #offers .check{
+        width: 1.75rem;
+    }
+}
+
+@media (max-width: 470px){
+    /* NOTABLE PIECES */
+    #notPieces #prev{
+        top: 89%;
+        left: 8%;
+        transform: translate(-8%, -89%);
+    }
+    #notPieces #next{
+        top: 89%;
+        right: 8%;
+        transform: translate(-8%, -89%);
+    }
+    #notPieces .prev,
+    #notPieces .next{
+        height: 2rem;
+        width: 2rem;
+        z-index: -1;
+    }
+    
+}
