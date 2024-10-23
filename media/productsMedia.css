@@ -47,6 +47,10 @@
         transform: translate(-5%, -50%);
         text-align: right;
     }
+    /* CANT FIND SECTION */
+    #cantFindSection #findSub{
+        width: 75%;
+    }
 }
 
 @media (max-width: 860px){
@@ -63,6 +67,14 @@
     }
     #ProdIntro #subTitle{
         font-size: .75rem;
+    }
+    /* CANT FIND SECTION */
+    #cantFindSection #findMain{
+        font-size: 3rem;
+    }
+    #cantFindSection #findIntro,
+    #cantFindSection #findSub{
+    font-size: 1.1rem;
     }
 }
 
