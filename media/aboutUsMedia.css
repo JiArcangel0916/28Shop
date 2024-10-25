@@ -41,6 +41,15 @@
         justify-content: center;
         gap: 2rem;
     }
+    #aboutShop #aboutTitle h2{
+        font-size: 1.5rem;
+    }
+    #aboutShop #aboutTitle .title #num{
+        font-size: 7.5rem;
+    }
+    #aboutShop #aboutTitle .title #shop{
+        font-size: 5.5rem;
+    }
 
     /* REVIEWS */
     #reviews #reviewsTitle h2{
@@ -68,7 +77,7 @@
         max-width: 100%;
     }
     #reviews #imgSlider .slide img{
-        width: 350px;
+        width: 300px;
     }
 
     /* FOUNDER MESSAGE */

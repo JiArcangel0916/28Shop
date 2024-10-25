@@ -6,6 +6,11 @@
     #offers #items{
         margin: 3rem 0;
     }
+
+    /* NOTABLE PIECES SECTION */
+    #notPiecesTitle{
+        font-size: 1.5rem;
+    }
 }
 
 @media (max-width: 950px){
@@ -82,11 +87,15 @@
         width: 100%;
     }
     #notPieces .prodImg.first-img,
-    #notPieces .prodImg.second-img,
-    #notPieces .prodImg.third-img,
     #notPieces .prodImg.fourth-img,
     #notPieces .prodImg.fifth-img{
-        width: clamp(18rem, 50%, 30rem);
+        width: clamp(30px, 50%, 300px);
+    }
+    #notPieces .prodImg.second-img{
+        width: clamp(30px, 50%, 250px);
+    }
+    #notPieces .prodImg.third-img{
+        width: clamp(100px, 50%, 450px)
     }
     #notPieces #dotContainer{
         bottom: 5%;
@@ -95,9 +104,9 @@
     }
 }
 
-@media (max-width: 500px){
+@media (max-width: 600px){
     /* SPLASH SECTION */
-    #socials .socmedBtns{
+    #Splash #socials .socmedBtns{
         gap: .5rem;
     }
 
@@ -139,5 +148,4 @@
         width: 2rem;
         z-index: -1;
     }
-    
 }

@@ -78,7 +78,7 @@
 #Splash #socials #check{
     color: #FFFFFF;
     font-family: "Sorts Mill Goudy", serif;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     text-align: center;
 }
 
@@ -93,8 +93,9 @@
     box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.5);
     position: relative;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+    padding: 0;
 }
 
 #offers p{
@@ -120,10 +121,10 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 3rem;
-    width: 100%;
+    gap: 2rem;
+    width: 95%;
     height: 100%;
-    margin: 6rem 0;
+    margin: 5rem 0;
 }
  
 #offers .offerings{
@@ -136,18 +137,21 @@
 }
  
 #offers .offerTitle{
-    font-size: 2rem;
+    font-size: 1.75rem;
     text-align: center;
     font-weight: 400;
 }
 #offers .offerDesc{
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     text-align: center;
-    width: 55%;
+    width: 75%;
 }
 
-#offers .diamond{
-    width: 5rem;
+#offers .diamond,
+#offers .world,
+#offers .cert, 
+#offers .cart{
+    width: 4.5rem;
 }
 #offers #star1{
     height: 3rem;
@@ -168,9 +172,6 @@
     animation: shine2 1.5s infinite linear;
 }
 
-#offers .world{
-    width: 5rem;
-}
 #offers .plane{
     width: 2rem;
     position: absolute;
@@ -183,25 +184,20 @@
 }
 
 #offers .cert{
-    width: 5rem;
-    height: 5rem;
     z-index: -1;
     animation: rotate 10s infinite linear;
 }
 #offers .check{
-    height: 2.25rem;
-    width: 2.25rem;
+    height: 2rem;
+    width: 2rem;
     position: absolute;
-    top: 35%;
-    left: 55%;
-    transform: translate(-55%, -35%);
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -38%);
     fill: #BB8009;
 }
 
 #offers .cart{
-    height: 4rem;
-    width: 4rem;
-    margin: 1.25rem 0;
     animation: scale 2s infinite linear;
 }
 
@@ -330,12 +326,12 @@
 
 #notPieces .prodImg.first-img{
     width: 30vw;
-    top: 10%;
+    top: 5%;
     left: 30%;
-    transform: translate(-30%, 10%);
+    transform: translate(-30%, 5%);
 }
 #notPieces .prodImg.second-img{
-    width: 22vw;
+    width: 25vw;
     top: 40%;
     left: 30%;
     transform: translate(-30%, -40%);

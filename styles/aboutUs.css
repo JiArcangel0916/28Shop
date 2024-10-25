@@ -21,8 +21,9 @@
 
 #aboutShop #ring{
     height: auto;
-    width: clamp(18rem, 50%, 36rem);
+    width: clamp(300px, 50%, 25rem);
     transition: all 0.3s ease;
+    margin-top: 5rem;
 }
 
 #aboutShop .textContainer{
@@ -67,7 +68,7 @@
 }
 #aboutShop #description p{
     color: #FFFFFF;
-    font-size: 1.45rem;
+    font-size: 1.4rem;
     width: 100%;
     line-height: 30px;
     text-align: left;
@@ -205,16 +206,17 @@
     font-family: "Sorts Mill Goudy", serif;
     font-weight: 300;
     text-align: right;
-    font-size: 2rem;
+    font-size: 1.75rem;
 }
 #reviews #reviewsTitle h1{
     font-family: "Great Vibes";
     font-weight: 500;
     text-align: center;
-    font-size: 8rem;
+    font-size: 7rem;
     margin-top: -1.75rem;
     margin-bottom: -2rem;
     color: #BB8009;
+    text-align: right;
 }
 #reviews #reviewsTitle p{
     font-family: "Sorts Mill Goudy", serif;
@@ -227,7 +229,7 @@
     height: 70%;
     width: 80%;
     display: flex;
-    gap: 1.25rem;
+    gap: .5rem;
     overflow-x: scroll;
     scroll-behavior: smooth;
     margin-top: 10rem;
@@ -245,15 +247,15 @@
     background-repeat: no-repeat;
     justify-content: center;
     align-items: flex-end;
-    padding-bottom: 3rem;
 }
 
 #reviews #imgSlider .slide img{
     pointer-events: none; 
     user-select: none; 
     -webkit-user-drag: none;
-    width: clamp(200px, 70%, 600px);
+    width: clamp(250px, 60%, 400px);
     aspect-ratio: .85;
+    margin-bottom: 3rem;
 }
 
 /* Custom scrollbar for WebKit browsers */

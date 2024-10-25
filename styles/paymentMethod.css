@@ -79,7 +79,7 @@
     margin-bottom: 1rem;
 }
 #paymentMethods .categCurrency{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     text-align: center;
 }
 #paymentMethods .specificMethod{
@@ -90,7 +90,7 @@
 }
 #paymentMethods .specificMethod p{
     font-family:  "Montserrat", sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 #paymentMethods .specificMethod .num{
     font-weight: 700;
@@ -109,9 +109,11 @@
     width: 12rem;
 }
 #bdoLogo, 
-#bpiLogo, 
-#lbcLogo{
+#bpiLogo{
     width: 6rem;
+}
+#lbcLogo{
+    width: 5rem;
 }
 #gcashLogo, 
 #cebuanaLogo, 
@@ -121,5 +123,5 @@
     width: 10rem;
 }
 #mlhuillierLogo{
-    width: 18rem;
+    width: 15rem;
 }
