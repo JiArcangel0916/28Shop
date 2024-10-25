@@ -54,11 +54,21 @@
     }
 }
 
+@media (max-width: 1000px){
+    /* REVIEWS */
+    #reviews #imgSlider .slide img{
+        width: 300px;
+    }
+}
+
 @media (max-width: 800px){
     /* REVIEWS */
     #reviews #imgSlider .slide{
         flex: 0 0 100%;
         max-width: 100%;
+    }
+    #reviews #imgSlider .slide img{
+        width: 350px;
     }
 
     /* FOUNDER MESSAGE */

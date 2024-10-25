@@ -252,8 +252,8 @@
     pointer-events: none; 
     user-select: none; 
     -webkit-user-drag: none;
-    width: clamp(200px, 90%, 320px);
-    aspect-ratio: .90;
+    width: clamp(200px, 70%, 600px);
+    aspect-ratio: .85;
 }
 
 /* Custom scrollbar for WebKit browsers */

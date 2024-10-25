@@ -108,7 +108,7 @@
 
 #Products .prodHeader{
     font-size: 1.5rem;
-    margin-top: 2rem;
+    margin: 2rem 0;
     text-align: center;
     padding: .2rem 1.5rem;
     border-bottom: 1.5px solid transparent;
@@ -146,13 +146,12 @@
     margin: auto;
 }
 #Products .cardPic{
-    border: 1px solid red;
     width: 100%;
-    aspect-ratio: .80;
+    aspect-ratio: .90;
     transition: all 0.3s ease;
 }
 #Products .cardPic img{
-    height: 100%;
+    height: auto;
     width: 100%;
 }
 #Products .cardPic:hover{
