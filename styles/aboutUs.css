@@ -8,7 +8,7 @@
     position: relative;
     min-height: 100vh;
     background-image: url("../Resources/About Us Page/What is 28 Shop BG FINAL.png");
-    background-position: 50% 58%;
+    background-position: center 51%;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -42,7 +42,7 @@
     color: #FFFFFF;
     font-weight: 400;
     font-family: "Sorts Mill Goudy", serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-bottom: -2rem;
     text-align: left;
 }
@@ -54,10 +54,10 @@
     display: inline;
 }
 #aboutShop #aboutTitle .title #num{
-    font-size: 9rem;
+    font-size: 7rem;
 }
 #aboutShop #aboutTitle .title #shop{
-    font-size: 7rem;
+    font-size: 5rem;
 }
 
 #aboutShop #description{
@@ -82,11 +82,11 @@
     width: fit-content;
 }
 
-/* WHAT IS ABOUT THE FOUNDER */
+/* ABOUT THE FOUNDER */
 #aboutTheFounder{
     min-height: 100vh;
     background-image: url('../Resources/About Us Page/About the Author BG FINAL.png');
-    background-position: 50% -0%;
+    background-position: center -0%;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -98,6 +98,7 @@
     top: 60%;
     right: 5%;
     transform: translate(-5%, -60%);
+    margin-bottom: 3rem;
 }
 #aboutTheFounder #description{
     display: flex;
@@ -111,16 +112,16 @@
     text-align: right;
 }
 #aboutTheFounder p{
-    font-size: 1.45rem;
+    font-size: 1.4rem;
 }
 #aboutTheFounder h2{
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-bottom: -1rem;
 }
 #aboutTheFounder h1{
     font-family: "Great Vibes";
     color: #BB8009;
-    font-size: 9rem;
+    font-size: 7rem;
     font-weight: 400;
     text-align: right;
 }
@@ -238,7 +239,7 @@
 
 #reviews #imgSlider .slide{
     display: flex;
-    flex: 0 0 32.5%;
+    flex: 0 0 33%;
     max-width: 33.33%;
     margin-bottom: 1rem;
     background-image: url('../Resources/About Us Page/FeedbackBG.png');

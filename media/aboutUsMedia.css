@@ -3,11 +3,6 @@
     #aboutShop{
         gap: 5rem;
     }
-    /* REVIEWS */
-    #reviews #imgSlider .slide{
-        flex: 0 0 50%;
-        max-width: 50%;
-    }
 }
 
 @media (max-width: 1177px){
@@ -30,6 +25,12 @@
     }
     #aboutShop #description{
         align-items: center;
+    }
+
+    /* REVIEWS */
+    #reviews #imgSlider .slide{
+        flex: 0 0 65%;
+        max-width: 50%;
     }
 }
 
@@ -66,20 +67,11 @@
 @media (max-width: 1000px){
     /* REVIEWS */
     #reviews #imgSlider .slide img{
-        width: 300px;
+        width: 250px;
     }
 }
 
 @media (max-width: 800px){
-    /* REVIEWS */
-    #reviews #imgSlider .slide{
-        flex: 0 0 100%;
-        max-width: 100%;
-    }
-    #reviews #imgSlider .slide img{
-        width: 300px;
-    }
-
     /* FOUNDER MESSAGE */
     #founderMsg h2{
         font-size: 2.5rem;
@@ -108,6 +100,14 @@
     /* FOUNDER MESSAGE */
     #founderMsg #textContainer{
         width: 90%;
+    }
+}
+
+@media (max-width: 700px){
+    /* REVIEWS */
+    #reviews #imgSlider .slide{
+        flex: 0 0 100%;
+        max-width: 100%;
     }
 }
 

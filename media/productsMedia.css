@@ -5,10 +5,13 @@
     }
 }
 
-@media (max-width: 1240px){
+@media (max-width: 1200px){
     /* PRODUCTS IMAGES*/
     #Products .allProds .prodContainer{
         grid-template-columns: repeat(2, minmax(400px, 1fr));
+    }
+    #Products .allProds .cardPic{
+        height: 550px;
     }
 }
 
@@ -16,36 +19,33 @@
     /* PRODUCTS INTRO */
     #ProdIntro #subTitle{
         font-size: 1rem;
-        top: 50%;
+        top: 65%;
         left: 48%;
     }
 }
 
 @media (max-width: 950px){
     /* PRODUCTS INTRO */
+    #ProdIntro{
+        height: 40vh;
+    }
     #ProdIntro #logo{
-        top: 0;
-        left: 50%;
-        transform: translateX(-50%);
+        width: 300px;
     }
     #ProdIntro #sampPics{
-        top: 80%;
-        left: 50%;
-        transform: translate(-50%, -80%);
+        right: 15%;
+        transform: translateX(-15%);
+        width: 280px;
     }
     #ProdIntro #subTitle{
-        top: 83%;
-        left: 45%;
-        transform: translate(-45%, -83%) skew(-20deg);
+        top: 70%;
+        left: 15%;
+        transform: translate(-15%, -70%) skew(-20deg);
         margin-top: 1rem;
         max-width: fit-content;
     }
     #ProdIntro #rightTexts{
-        font-size: 1rem;
-        top: 50%;
-        left: 5%;
-        transform: translate(-5%, -50%);
-        text-align: right;
+        display: none;
     }
     /* CANT FIND SECTION */
     #cantFindSection #findSub{
@@ -53,10 +53,24 @@
     }
 }
 
-@media (max-width: 860px){
+@media (max-width: 840px){
     /* PRODUCTS IMAGES*/
     #Products .allProds .prodContainer{
         grid-template-columns: repeat(1, minmax(150px, 1fr));
+    }
+
+    /* PRODUCT HEADERS */
+    #Products #sectionTitle{
+        font-size: 2rem;
+    }
+    #Products #prodHeaders{
+        margin: 0;
+    }
+    #Products .prodHeader{
+        font-size: 1.25rem;
+    }
+    #Products #prodHeaders{
+        gap: 1rem;
     }
 }
 
@@ -68,6 +82,7 @@
     #ProdIntro #subTitle{
         font-size: .75rem;
     }
+
     /* CANT FIND SECTION */
     #cantFindSection #findMain{
         font-size: 3rem;
@@ -87,16 +102,5 @@
     #ProdIntro #sampPics{
         width: 15rem;
         top: 70%;
-    }
-    
-    /* PRODUCT HEADERS */
-    #Products #sectionTitle{
-        font-size: 2rem;
-    }
-    #Products #prodHeaders{
-        margin-left: 0;
-    }
-    #Products .prodHeader{
-        font-size: 1rem;
     }
 }

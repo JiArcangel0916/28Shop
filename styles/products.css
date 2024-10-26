@@ -5,7 +5,7 @@
 
 /* PRODUCTS INTRO SECTION */
 #ProdIntro{
-    min-height: 53vh;
+    height: 53vh;
     position: relative;
     padding: 0;
     background-image: url('../Resources/Products Page/Products Intro BG.png');
@@ -101,9 +101,8 @@
 
 #Products .allProds{
     width: 85%;
-    margin: auto;
     overflow: visible;
-    margin-bottom: 3rem;
+    margin: auto auto 3rem auto;
 }
 
 #Products .prodHeader{
@@ -140,18 +139,14 @@
     animation: entrance .5s ease;
     row-gap: 15px;
     column-gap: 15px;
-    margin: 0px 30px 50px 30px;
+    margin: auto;
 }
 #Products .cardPic{
     width: 100%;
-    height: 23rem;
-    aspect-ratio: 3;
+    height: 500px;
+    aspect-ratio: .90;
     transition: all 0.3s ease;
 }
-/* #Products .cardPic img{
-    height: auto;
-    width: 100%;
-} */
 #Products .cardPic:hover{
     transform: scale(1.2);
 }

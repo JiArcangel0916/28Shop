@@ -7,11 +7,16 @@
     position: fixed;
     top: 0;
     z-index: 1000;
-    height: 11vh;
+    height: 10vh;
     width: 100%;
     transition: all 0.2s ease;
     background-color: rgb(0, 0, 0, 0.75);
     z-index: 100000;
+    opacity: .25;
+}
+
+.header:hover{
+    opacity: 1;
 }
 
 .navbarLogo img{
@@ -34,12 +39,17 @@
     text-decoration: none;
     color: #FFFFFF;
     display: inline-block;
-    padding: .5rem;
-    margin: .5rem 1rem;
+    padding: .25rem;
+    margin: 1rem 1rem .5rem 1rem;
     border: 2px solid transparent;
     font-weight: 400;
     font-family: "Sorts Mill Goudy", serif;
     font-size: 1rem;
+}
+
+.navbar .METHODS{
+    padding: .5rem;
+    margin: 1rem;
 }
 
 .navbar li a:hover{
