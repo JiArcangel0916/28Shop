@@ -58,7 +58,6 @@
     align-items: flex-start;
     flex-wrap: wrap;
     width: 100%;
-    gap: 5rem;
     margin-bottom: 5rem;
 }
 
@@ -68,8 +67,9 @@
     justify-content: center;
     align-items: center;
     gap: 2.5rem;
-    width: 25rem;
+    width: 20%;
 }
+
 #paymentMethods .categTitle{
     font-size: 1.5rem;
     padding: .25rem .75rem 0rem .75rem;

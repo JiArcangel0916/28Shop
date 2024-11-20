@@ -7,7 +7,7 @@
     position: fixed;
     top: 0;
     z-index: 1000;
-    height: 10vh;
+    height: 8vh;
     width: 100%;
     transition: all 0.2s ease;
     background-color: rgb(0, 0, 0, 0.75);
@@ -44,12 +44,12 @@
     border: 2px solid transparent;
     font-weight: 400;
     font-family: "Sorts Mill Goudy", serif;
-    font-size: 1rem;
+    font-size: 1.10rem;
 }
 
 .navbar .METHODS{
     padding: .5rem;
-    margin: 1rem;
+    margin: .75rem 1rem 1rem 1rem;
 }
 
 .navbar li a:hover{
