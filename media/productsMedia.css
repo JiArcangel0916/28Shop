@@ -56,7 +56,7 @@
 @media (max-width: 840px){
     /* PRODUCTS IMAGES*/
     #Products .allProds .prodContainer{
-        grid-template-columns: repeat(1, minmax(350px, 1fr));
+        grid-template-columns: repeat(1, minmax(150px, 1fr));
     }
 
     /* PRODUCT HEADERS */
@@ -95,12 +95,20 @@
 
 @media (max-width: 480px){
     /* PRODUCTS INTRO */
+    /* #ProdIntro #logo,
+    #ProdIntro #sampPics,
+    #ProdIntro #subTitle{
+        position: static;
+    }
     #ProdIntro #logo{
-        width: 18rem;
-        top: 10%;
+        height: auto;
+        width: 5px;
     }
     #ProdIntro #sampPics{
-        width: 15rem;
-        top: 70%;
+        height: auto;
+        width: 15px;
     }
+    #ProdIntro #subTitle{
+        font-size: .75rem;
+    } */
 }

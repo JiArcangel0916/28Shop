@@ -17,6 +17,7 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 5rem;
+    overflow: visible;
 }
 
 #aboutShop #ring{
@@ -82,29 +83,54 @@
     width: fit-content;
 }
 
+#aboutShop #wave{
+    height: auto;
+    width: 900px;
+    position: absolute;
+    top: 70%;
+    right: 0;
+}
+
 /* ABOUT THE FOUNDER */
 #aboutTheFounder{
     min-height: 100vh;
-    background-image: url('../Resources/About Us Page/About the Author BG FINAL.png');
-    background-position: center -0%;
-    background-size: cover;
-    background-repeat: no-repeat;
     position: relative;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5rem;
+    flex-wrap: wrap;
+    padding: 5rem;
 }
 
-#aboutTheFounder #titleAndDesc{
-    width: 40%;
-    position: absolute;
-    top: 60%;
-    right: 5%;
-    transform: translate(-5%, -60%);
-    margin-bottom: 3rem;
+#aboutTheFounder #founderPic{
+    height: auto;
+    width: 500px;
 }
+
+#aboutTheFounder #aboutFounderBG{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -10000;
+}
+
+#aboutTheFounder #abtFounderTxtContainer{
+    width: 50%;
+}
+
+#aboutTheFounder #titleAndDesc,
+#aboutTheFounder #description{
+    width: 100%;
+}
+
 #aboutTheFounder #description{
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
+
 #aboutTheFounder h2, #aboutTheFounder p{
     font-family: "Sorts Mill Goudy", serif;
     color: #FFFFFF;
@@ -254,9 +280,9 @@
     pointer-events: none; 
     user-select: none; 
     -webkit-user-drag: none;
-    width: clamp(250px, 60%, 400px);
+    width: clamp(300px, 70%, 400px);
     aspect-ratio: .85;
-    margin-bottom: 3rem;
+    margin: 0 1rem 5rem 1rem;
 }
 
 /* Custom scrollbar for WebKit browsers */
