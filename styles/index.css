@@ -137,12 +137,12 @@
 }
  
 #offers .offerTitle{
-    font-size: 1.75rem;
+    font-size: 1.8rem;
     text-align: center;
     font-weight: 400;
 }
 #offers .offerDesc{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     text-align: center;
     width: 75%;
 }

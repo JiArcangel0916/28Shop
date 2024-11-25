@@ -8,7 +8,7 @@
 @media (max-width: 1200px){
     /* PRODUCTS IMAGES*/
     #Products .allProds .prodContainer{
-        grid-template-columns: repeat(2, minmax(400px, 1fr));
+        grid-template-columns: repeat(2, minmax(350px, 1fr));
     }
     #Products .allProds .cardPic{
         height: 550px;
@@ -93,22 +93,33 @@
     }
 }
 
-@media (max-width: 480px){
+@media (max-width: 500px){
     /* PRODUCTS INTRO */
-    /* #ProdIntro #logo,
+    #ProdIntro{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 70vh;
+        width: 100%;
+    }
+    #ProdIntro #logo,
     #ProdIntro #sampPics,
     #ProdIntro #subTitle{
         position: static;
+        height: auto;
+        transform: none;
     }
     #ProdIntro #logo{
-        height: auto;
-        width: 5px;
+        width: 300px;
     }
     #ProdIntro #sampPics{
-        height: auto;
-        width: 15px;
+        width: 250px;
+        margin-top: 1rem;
     }
     #ProdIntro #subTitle{
-        font-size: .75rem;
-    } */
+        font-size: .8rem;
+        transform: skew(-20deg);
+        margin-top: -3rem;
+    }
 }

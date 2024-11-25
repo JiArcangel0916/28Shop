@@ -85,10 +85,12 @@
 
 #aboutShop #wave{
     height: auto;
-    width: 900px;
+    width: 800px;
     position: absolute;
-    top: 70%;
+    top: 170%;
     right: 0;
+    transform: translate(0, -170%);
+    z-index: 1;
 }
 
 /* ABOUT THE FOUNDER */
@@ -106,7 +108,8 @@
 
 #aboutTheFounder #founderPic{
     height: auto;
-    width: 500px;
+    width: 450px;
+    z-index: 1000;
 }
 
 #aboutTheFounder #aboutFounderBG{
@@ -273,16 +276,16 @@
     background-size: cover;
     background-repeat: no-repeat;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
 }
 
 #reviews #imgSlider .slide img{
     pointer-events: none; 
     user-select: none; 
     -webkit-user-drag: none;
-    width: clamp(300px, 70%, 400px);
-    aspect-ratio: .85;
-    margin: 0 1rem 5rem 1rem;
+    width: clamp(230px, 60%, 325px);
+    aspect-ratio: .80;
+    margin: 5rem 1rem 0rem 1rem;
 }
 
 /* Custom scrollbar for WebKit browsers */

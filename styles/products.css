@@ -7,7 +7,6 @@
 #ProdIntro{
     height: 53vh;
     position: relative;
-    padding: 0;
     background-image: url('../Resources/Products Page/Products Intro BG.png');
     background-size: cover;
     background-position: center;
@@ -135,7 +134,7 @@
 /* PICTURES */
 #Products .allProds .prodContainer{
     display: grid;
-    grid-template-columns: repeat(3, minmax(400px, 1fr));
+    grid-template-columns: repeat(3, minmax(350px, 1fr));
     animation: entrance .5s ease;
     row-gap: 15px;
     column-gap: 15px;
@@ -194,7 +193,7 @@
 }
 #cantFindSection #findIntro,
 #cantFindSection #findSub{
-    font-size: 1.4rem;
+    font-size: 1.5rem;
 }
 
 #cantFindSection #findBar{
