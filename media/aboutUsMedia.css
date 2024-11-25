@@ -26,6 +26,12 @@
 
 @media (max-width: 1177px){
     /* ABOUT 28 SHOP */
+    #aboutShop{
+        gap: 2rem;
+    }
+    #aboutShop #ring{
+        width: 250px;
+    }
     #aboutShop .textContainer{
         padding: 0 2rem 0rem 2rem;
         width: 90%;

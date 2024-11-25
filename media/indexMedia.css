@@ -104,7 +104,7 @@
     }
 }
 
-@media (max-width: 600px){
+@media (max-width: 680px){
     /* SPLASH SECTION */
     #Splash #socials .socmedBtns{
         gap: .5rem;
@@ -128,6 +128,14 @@
     #offers .check{
         width: 1.75rem;
     }
+    /* NOTABLE PIECES */
+    #notPieces #pieceTitle{
+        font-size: 2.25rem;
+    }
+    #notPieces #notPiecesTitle{
+        font-size: .8rem;
+    }
+
 }
 
 @media (max-width: 470px){
