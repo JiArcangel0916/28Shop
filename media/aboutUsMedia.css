@@ -5,7 +5,7 @@
     }
 }
 
-@media (max-width: 1320px){
+@media (max-width: 1350px){
     /* ABOUT THE FOUNDER */
     #aboutTheFounder{
         padding: 0;
@@ -99,7 +99,7 @@
 @media (max-width: 800px){
     /* ABOUT THE FOUNDER */
     #aboutTheFounder #founderPic{
-        width: 350px;
+        width: 450px;
     }
 
     /* FOUNDER MESSAGE */
@@ -167,7 +167,7 @@
         font-size: 1.2rem;
     }
     #aboutTheFounder #founderPic{
-        width: 300px;
+        width: 80%;
     }
 
     /* FOUNDER MESSAGE */
