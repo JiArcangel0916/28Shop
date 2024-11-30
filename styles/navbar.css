@@ -48,8 +48,14 @@
 }
 
 .navbar .METHODS{
-    padding: .5rem;
-    margin: .90rem 1rem 1rem 1rem;
+    padding: .30rem .5rem;
+    margin: 1rem;
+    background-color: #BB8009;
+    color: #FFFFFF;
+}
+.navbar .METHODS:HOVER{
+    color: #FFFFFF;
+    background-color: #dd970b;
 }
 
 .navbar li a:hover{
@@ -61,15 +67,6 @@
     fill: #BB8009;
     width: 2rem;
     cursor: pointer;
-}
-
-.navbar .METHODS{
-    background-color: #BB8009;
-    color: #FFFFFF;
-}
-.navbar .METHODS:HOVER{
-    color: #FFFFFF;
-    background-color: #dd970b;
 }
 
 /* SIDEBAR CSS */

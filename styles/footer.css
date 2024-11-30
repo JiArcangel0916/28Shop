@@ -104,15 +104,6 @@ color: #BB8009;
 }
 
 /* RESPONSIVENESS */
-@media (max-width: 1720px){
-    .footer{
-        justify-content: center;
-    }
-    .copyright{
-        bottom: 5%;
-    }
-}
-
 @media (max-width: 1535px){
     .footer{
         gap: 3rem;

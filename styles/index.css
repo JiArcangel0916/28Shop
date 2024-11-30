@@ -273,15 +273,15 @@
 
 #notPieces #prev{
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 7%;
-    transform: translate(-7%, -50%);
+    transform: translate(-7%, -40%);
 }
 #notPieces #next{
     position: absolute;
-    top: 50%;
+    top: 40%;
     right: 7%;
-    transform: translate(-7%, -50%);
+    transform: translate(-7%, -40%);
 }
 
 #notPieces #pieceTitle{
@@ -291,9 +291,9 @@
     font-size: 5rem;
     transition: all 0.5s ease;
     position: absolute;
-    bottom: 12%;
+    bottom: 23%;
     right: 5%;
-    transform: translate(-5%, -12%);
+    transform: translate(-5%, -23%);
     text-align: center;
 }
 
@@ -302,11 +302,11 @@
     font-family: "Sorts Mill Goudy", serif;
     font-size: 2rem;
     position: absolute;
-    bottom: 30%;
+    bottom: 40%;
     right: 5%;
-    padding: .20em 1.5em .05em 1.5em;
+    padding: .20em 1em .05em 1em;
     background-color: #BB8009;
-    transform: translate(-5%, -30%);
+    transform: translate(-5%, -40%);
     text-align: center;
     transition: all 0.3s ease;
 }
@@ -325,34 +325,34 @@
 }
 
 #notPieces .prodImg.first-img{
-    width: 30vw;
+    width: 33vw;
     top: 5%;
     left: 30%;
     transform: translate(-30%, 5%);
 }
 #notPieces .prodImg.second-img{
-    width: 25vw;
+    width: 28vw;
     top: 40%;
     left: 30%;
     transform: translate(-30%, -40%);
 }
 #notPieces .prodImg.third-img{
-    width: 45vw;
-    top: 45%;
+    width: 49vw;
+    top: 60%;
     left: 30%;
-    transform: translate(-30%, -45%);
+    transform: translate(-30%, -60%);
 }
 #notPieces .prodImg.fourth-img{
-    width: 25vw;
-    top: 40%;
+    width: 28vw;
+    top: 50%;
     left: 30%;
-    transform: translate(-30%, -40%);
+    transform: translate(-30%, -50%);
 }
 #notPieces .prodImg.fifth-img{
-    width: 33vw;
-    top: 40%;
+    width: 35vw;
+    top: 50%;
     left: 30%;
-    transform: translate(-30%, -40%);
+    transform: translate(-30%, -50%);
 }
 
 #notPieces #dotContainer{
@@ -368,7 +368,7 @@
 
 #notPieces .dot{
     transition: all 0.3s ease;
-    border: 6px solid #FFFFFF;
+    border: 4.5px solid #FFFFFF;
     border-radius: 100%;
     cursor: pointer;
 }

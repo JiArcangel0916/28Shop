@@ -1,8 +1,3 @@
-/* .navbar .PRODUCTS{
-    border-bottom-color: #BB8009;
-    color: #BB8009;
-} */
-
 /* PRODUCTS INTRO SECTION */
 #ProdIntro{
     height: 53vh;
@@ -20,9 +15,9 @@
     height: auto;
     width: clamp(23rem, 35%, 40rem); /*50 rem / 35%*/
     position: absolute;
-    top: 10%;
+    top: 20%;
     left: 15%;
-    transform: translate(-15%, -10%);
+    transform: translate(-15%, -20%);
 }
 
 #ProdIntro #sampPics{
@@ -140,9 +135,18 @@
     column-gap: 15px;
     margin: auto;
 }
-#Products .cardPic{
+#Products #ringSection .cardPic{
     width: 100%;
-    height: 500px;
+    height: 450px;
+    aspect-ratio: .90;
+    transition: all 0.3s ease;
+}
+#Products #necklaceSection .cardPic,
+#Products #earringSection .cardPic,
+#Products #braceletSection .cardPic,
+#Products #watchSection .cardPic{
+    width: 100%;
+    height: 400px;
     aspect-ratio: .90;
     transition: all 0.3s ease;
 }
