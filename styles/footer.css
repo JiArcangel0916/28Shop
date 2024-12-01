@@ -23,7 +23,7 @@ a{
 
 #wholeLogo{
     height: auto;
-    width: 24rem;
+    width: 350px;
 }
 
 .footer .logoAndSoc{
@@ -32,7 +32,7 @@ a{
     align-items: center;
     justify-content: space-between;
     gap: 3rem;
-    padding: 0rem 5rem;
+    padding: 0rem 4rem;
 }
 
 .footerSocMed{
@@ -71,10 +71,10 @@ a{
     display: flex;
     gap: 5rem;
     flex-wrap: wrap;
-    padding: 3rem 5rem 0 3rem;
+    padding: 3rem 5rem 0 0;
 }
 .summaryTabs a:hover{
-color: #BB8009;
+    color: #BB8009;
 }
 .home, .about, .products, .method{
     text-align: center;
@@ -87,6 +87,7 @@ color: #BB8009;
 .footer p{
     margin: .5rem 0;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 .copyright{
@@ -99,19 +100,14 @@ color: #BB8009;
     white-space: nowrap;
 }
 
-.footer p{
-    cursor: pointer;
-}
-
 /* RESPONSIVENESS */
-@media (max-width: 1535px){
+@media (max-width: 1550px){
     .footer{
-        gap: 3rem;
+        gap: 10px;
     }
     .footer .logoAndSoc{
         padding-top: 3rem;
         width: 100%;
-        flex-direction: row;
         justify-content: space-between;
         align-items: center;
         gap: 0;
