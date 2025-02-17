@@ -6,6 +6,10 @@
     justify-content: center;
     align-items: center;
     gap: 2rem;
+    background-image: url('../Resources/About Us Page/Reviews BG.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; /* changed the bg */
 }
 
 #paymentMethods #paymentBG{
