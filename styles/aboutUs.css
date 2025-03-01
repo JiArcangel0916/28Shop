@@ -161,10 +161,10 @@
     justify-content: center;
     align-items: center;
     padding: 5rem;
-    background-image: url('../Resources/About Us Page/Message from the Author BG.png');
+    /* background-image: url('../Resources/About Us Page/Message from the Author BG.png');
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat; /* changed the bg */
+    background-repeat: no-repeat;  */
 }
 
 #founderMsg #founderMsgBG{
