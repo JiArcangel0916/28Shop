@@ -1,4 +1,4 @@
-@media (max-width: 1600px){
+@media (max-width: 1500px){
     /* PRODUCTS IMAGES*/
     #Products .allProds{
         width: 100%;
@@ -54,23 +54,27 @@
 }
 
 @media (max-width: 840px){
-    /* PRODUCTS IMAGES*/
-    #Products .allProds .prodContainer{
-        grid-template-columns: repeat(1, minmax(150px, 1fr));
-    }
-
     /* PRODUCT HEADERS */
     #Products #sectionTitle{
         font-size: 2rem;
     }
     #Products #prodHeaders{
         margin: 0;
+        gap: 0;
     }
     #Products .prodHeader{
         font-size: 1.25rem;
+        margin: .5rem 0;
     }
-    #Products #prodHeaders{
-        gap: 1rem;
+}
+
+@media (max-width: 780px){
+    /* PRODUCTS IMAGES*/
+    #Products .allProds .prodContainer{
+        grid-template-columns: repeat(1, minmax(150px, 1fr));
+    }
+    #Products .allProds{
+        width: 85%;
     }
 }
 
@@ -121,5 +125,21 @@
         font-size: .8rem;
         transform: skew(-20deg);
         margin-top: -3rem;
+    }
+
+    /* PRODUCTS IMAGES */
+    #Products .allProds{
+        width: 100%;
+    }
+}
+
+@media (max-width: 450px){
+    /* PRODUCTS IMAGES */
+    #Products #ringSection .cardPic{
+        height: clamp(200px, 100%, 400px);
+    }
+    #Products .allProds .prodContainer{
+        row-gap: 10px;
+        column-gap: 10px;
     }
 }
