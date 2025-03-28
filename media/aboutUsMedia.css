@@ -104,10 +104,18 @@
 
     /* FOUNDER MESSAGE */
     #founderMsg h2{
-        font-size: 2.5rem;
+        font-size: 2.15rem;
     }
     #founderMsg h3{
         font-size: 1.25rem;
+    }
+    #founderMsg p{
+        font-size: 1rem;
+    }
+    #founderMsg #bar{
+        height: 5px;
+        width: 70px;
+        background-color: #BB8009;
     }
 }
 
@@ -130,6 +138,14 @@
     /* FOUNDER MESSAGE */
     #founderMsg #textContainer{
         width: 90%;
+    }
+    #founderMsg #founderMsgBG{
+        height: 120%;
+        width: 120%;
+    }
+    #founderMsg{
+        min-height: 30vh;
+        padding: 3rem;
     }
 }
 
@@ -175,9 +191,6 @@
         font-size: 2rem;
     }
     #founderMsg h3{
-        font-size: 1rem;
-    }
-    #founderMsg p{
         font-size: 1rem;
     }
 }
