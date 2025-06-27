@@ -60,13 +60,14 @@
     }
     #notPieces #prev{
         top: 43%;
-        left: 7%;
-        transform: translate(-7%, -43%);
+        left: 8%;
+        transform: translate(-8%, -43%);
+        z-index: 1000;
     }
     #notPieces #next{
         top: 43%;
-        right: 7%;
-        transform: translate(-7%, -43%);
+        right: 8%;
+        transform: translate(-8%, -43%);
     }
     #notPieces h1{
         font-size: 4rem;
