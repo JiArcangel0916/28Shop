@@ -45,14 +45,14 @@
 }
 #paymentMethods #sectionTitle p{
     font-size: 1.5rem;
-    font-family: "Sorts Mill Goudy", serif;
+    font-family: var(--main-serif-font);
     font-style: italic;
 }
 
 #paymentMethods #bar{
     height: 4px;
     width: 80px;
-    background-color: #000000;
+    background-color: var(--main-black);
 }
 
 /* MAIN CONTENT */
@@ -77,8 +77,8 @@
 #paymentMethods .categTitle{
     font-size: 1.5rem;
     padding: .25rem .75rem 0rem .75rem;
-    background-color: #BB8009;
-    color: #FFFFFF;
+    background-color: var(--main-yellow);
+    color: var(--main-white);
     text-align: center;
     margin-bottom: 1rem;
 }

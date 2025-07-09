@@ -1,10 +1,10 @@
 *{
-    font-family: "Sorts Mill Goudy", serif;
+    font-family: var(--main-serif-font);
 }
 
 a{
     text-decoration: none;
-    color: #FFFFFF;
+    color: var(--main-white);
 }
 
 .footer{
@@ -52,7 +52,7 @@ a{
 }
 
 .socmedBtn:hover .footerSvg{
-    fill: #BB8009;
+    fill: var(--main-yellow);
     transform: translateY(-5px);
     background-color: #111111;
 }
@@ -74,19 +74,19 @@ a{
     padding: 3rem 5rem 0 0;
 }
 .summaryTabs a:hover{
-    color: #BB8009;
+    color: var(--main-yellow);
 }
 .home, .about, .products, .method{
     text-align: center;
 }
 
 .footer h2{
-    color: #BB8009;
+    color: var(--main-yellow);
     font-weight: 300;
 }
 .footer p{
     margin: .5rem 0;
-    color: #FFFFFF;
+    color: var(--main-white);
     cursor: pointer;
 }
 
@@ -95,7 +95,7 @@ a{
     bottom: 15%;
     right: 20%;
     transform: translate(-20%, -15%);
-    color: #FFFFFF;
+    color: var(--main-white);
     width: fit-content;
     white-space: nowrap;
 }

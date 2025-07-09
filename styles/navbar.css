@@ -37,34 +37,34 @@
 .navbar li a{
     transition: all 0.3s ease;
     text-decoration: none;
-    color: #FFFFFF;
+    color: var(--main-white);
     display: inline-block;
     padding: .25rem;
     margin: 1.2rem 1rem .5rem 1rem;
     border: 2px solid transparent;
     font-weight: 500;
-    font-family: "Sorts Mill Goudy", serif;
+    font-family: var(--main-serif-font);
     font-size: 1.05rem;
 }
 
 .navbar .METHODS{
     padding: .30rem .5rem;
     margin: 1rem;
-    background-color: #BB8009;
-    color: #FFFFFF;
+    background-color: var(--main-yellow);
+    color: var(--main-white);
 }
 .navbar .METHODS:HOVER{
-    color: #FFFFFF;
+    color: var(--main-white);
     background-color: #dd970b;
 }
 
 .navbar li a:hover{
-    border-bottom-color: #BB8009;
-    color: #BB8009;
+    border-bottom-color: var(--main-yellow);
+    color: var(--main-yellow);
 }
 
 .header svg{
-    fill: #BB8009;
+    fill: var(--main-yellow);
     width: 2rem;
     cursor: pointer;
 }
@@ -110,7 +110,7 @@
 }
 
 .sidebarContainer a:hover{
-    color: #BB8009;
+    color: var(--main-yellow);
 } 
 
 .sidebarContainer a::after{
@@ -120,7 +120,7 @@
     bottom: 0;
     height: 2px;
     width: 100%;
-    background-color: #BB8009;
+    background-color: var(--main-yellow);
     transform: scaleX(0);
     transform-origin: center; 
     transition: transform 0.3s ease;

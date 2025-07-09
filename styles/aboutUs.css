@@ -37,18 +37,18 @@
     flex-direction: column;
 }
 #aboutShop #aboutTitle h2{
-    color: #FFFFFF;
+    color: var(--main-white);
     font-weight: 400;
-    font-family: "Sorts Mill Goudy", serif;
+    font-family: var(--main-serif-font);
     font-size: 1.5rem;
     margin-bottom: -2rem;
     text-align: left;
 }
 #aboutShop #aboutTitle .title #num, 
 #aboutShop #aboutTitle .title #shop{
-    color: #BB8009;
+    color: var(--main-yellow);
     font-weight: 400;
-    font-family: "Great Vibes";
+    font-family: var(--main-cursive-font);
     display: inline;
 }
 #aboutShop #aboutTitle .title #num{
@@ -65,16 +65,16 @@
     align-items: flex-start;
 }
 #aboutShop #description p{
-    color: #FFFFFF;
+    color: var(--main-white);
     font-size: 1.2rem;
     width: 100%;
     line-height: 30px;
     text-align: left;
 }
 #aboutShop #showCollBtn{
-    color: #FFFFFF;
+    color: var(--main-white);
     font-size: 1.2rem;
-    background-color: #BB8009;
+    background-color: var(--main-yellow);
     padding: .60rem 1.5rem .45rem 1.5rem;
     text-align: right;
     width: fit-content;
@@ -132,8 +132,8 @@
 }
 
 #aboutTheFounder h2, #aboutTheFounder p{
-    font-family: "Sorts Mill Goudy", serif;
-    color: #FFFFFF;
+    font-family: var(--main-serif-font);
+    color: var(--main-white);
     font-weight: 400;
     text-align: right;
 }
@@ -145,8 +145,8 @@
     margin-bottom: -1rem;
 }
 #aboutTheFounder h1{
-    font-family: "Great Vibes";
-    color: #BB8009;
+    font-family: var(--main-cursive-font);
+    color: var(--main-yellow);
     font-size: 7rem;
     font-weight: 400;
     text-align: right;
@@ -185,13 +185,13 @@
 #founderMsg h2, #founderMsg h3{
     font-weight: 400;
     text-align: center;
-    color: white;
+    color: var(--main-white);
     width: 100%;
 }
 #founderMsg h2{
     font-size: 3rem;
     font-style: bold;
-    color: #f4e9d3;
+    color: var(--main-beige);
 }
 #founderMsg h3{
     font-size: 1.75rem;
@@ -200,13 +200,13 @@
 #founderMsg p{
     text-align: center;
     font-size: 1.25rem;
-    color: white;
+    color: var(--main-white);
 }
 
 #founderMsg #bar{
     height: 5px;
     width: 90px;
-    background-color: #BB8009;
+    background-color: var(--main-yellow);
     margin: 1.5rem 0;
 }
 
@@ -238,23 +238,23 @@
 }
 
 #reviews #reviewsTitle h2{
-    font-family: "Sorts Mill Goudy", serif;
+    font-family: var(--main-serif-font);
     font-weight: 300;
     text-align: right;
     font-size: 1.75rem;
 }
 #reviews #reviewsTitle h1{
-    font-family: "Great Vibes";
+    font-family: var(--main-cursive-font);
     font-weight: 500;
     text-align: center;
     font-size: 7rem;
     margin-top: -1.75rem;
     margin-bottom: -2rem;
-    color: #BB8009;
+    color: var(--main-yellow);
     text-align: right;
 }
 #reviews #reviewsTitle p{
-    font-family: "Sorts Mill Goudy", serif;
+    font-family: var(--main-serif-font);
     font-size: 1.5rem;
     text-align: right;
     font-style: italic;
@@ -303,6 +303,6 @@
     border-radius: 10px;
 }
 #reviews #imgSlider::-webkit-scrollbar-thumb {
-    background: #BB8009;
+    background: var(--main-yellow);
     border-radius: 10px; 
 }

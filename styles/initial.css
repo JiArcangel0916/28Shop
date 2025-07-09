@@ -5,6 +5,15 @@
     transition: all 0.3s ease;
 }
 
+:root{
+    --main-yellow: #BB8009;
+    --main-beige: #F4E9D3;
+    --main-white: #FFFFFF;
+    --main-black: #000000;
+    --main-serif-font: "Sorts Mill Goudy", serif;
+    --main-cursive-font: "Great Vibes";
+}
+
 html{
     scroll-behavior: smooth;
 }

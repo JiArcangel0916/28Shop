@@ -63,8 +63,15 @@
         gap: 0;
     }
     #Products .prodHeader{
+        font-size: 1.2rem;
+        margin: 1rem .5rem;
+    }
+    #Products .prodAvailabilityGrp p{
         font-size: 1.25rem;
-        margin: .5rem 0;
+        padding: 5px 15px;
+    }
+    #Products .prodAvailabilityGrp{
+        gap: 3rem;
     }
 }
 
