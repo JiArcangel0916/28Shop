@@ -143,10 +143,17 @@
     display: grid;
     grid-template-columns: repeat(3, minmax(350px, 1fr));
     animation: entrance .5s ease;
-    row-gap: 15px;
-    column-gap: 15px;
-    margin: auto;
 }
+
+#Products #sold .allProds .prodContainer{
+    column-gap: 15px;
+    row-gap: 15px;
+}
+#Products #available .allProds .prodContainer{
+    column-gap: .5em;
+    row-gap: 2em;
+}
+
 #Products #ringSection .cardPic{
     width: 100%;
     height: 450px;
@@ -184,7 +191,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     top: 0; 
     left: 0;
     transition: opacity 0.3s ease;
